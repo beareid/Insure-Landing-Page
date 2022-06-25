@@ -33,6 +33,25 @@ img {
   width: 100%;
   height: auto;
 }
+h1, h2 {
+  font-family: var(--header-font);
+}
+h1 {
+  font-size: 2.75rem;
+  line-height: 1;
+}
+button {
+  background-color: var(--dark-violet);
+  border: 1px solid var(--very-light-gray);
+  color: var(--very-light-gray);
+  cursor: pointer;
+  padding: .75rem 2rem;
+  text-transform: uppercase;
+}
+button:hover {
+  background-color: var(--very-light-gray);
+  color: var(--dark-violet);
+}
 
 /* NavBar */
 .navbar {
@@ -74,4 +93,25 @@ img {
 .view-plans {
   border: 1px solid var(--very-light-gray);
   margin: 1rem 2rem 0;
+}
+
+/* Intro Image */
+.image-intro {
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: var(--dark-violet);
+  background-image: url("/images/bg-pattern-intro-left-mobile.svg");
+  background-repeat: no-repeat;
+  color: var(--very-light-gray);
+  font-weight: 400;
+  padding: 5rem 1.7rem;
+  text-align: center;
+}
+.hero-section p {
+  line-height: 1.5;
+  padding: 1.5rem 0 2rem;
 }
