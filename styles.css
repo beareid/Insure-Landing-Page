@@ -29,10 +29,6 @@ body {
   font-family: var(--body-font);
   font-size: var(--body-size);
 }
-img {
-  width: 100%;
-  height: auto;
-}
 h1, h2 {
   font-family: var(--header-font);
 }
@@ -114,4 +110,27 @@ button:hover {
 .hero-section p {
   line-height: 1.5;
   padding: 1.5rem 0 2rem;
+}
+
+/* Features Section */
+.features-section {
+  padding: 9rem 2rem;
+  position: relative;
+  text-align: center;
+}
+.features-section .line {
+  border-top: 1px solid var(--dark-grayish-violet);
+  height: 1px;
+  width: 150px;
+  margin: auto;
+  padding-bottom: 3rem;
+}
+.right-img {
+  position: absolute;
+  right: 0;
+  top: -140px;
+}
+.features img {
+  height: 5rem;
+  width: 5rem;
 }
