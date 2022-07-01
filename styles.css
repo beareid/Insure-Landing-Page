@@ -114,7 +114,7 @@ button:hover {
 
 /* Features Section */
 .features-section {
-  padding: 9rem 2rem;
+  padding: 9rem 1.5rem;
   position: relative;
   text-align: center;
 }
@@ -146,4 +146,20 @@ button:hover {
   color: var(--dark-grayish-violet);
   font-size: 15px;
   line-height: 1.5;
+}
+
+/* Call To Action */
+.call-to-action {
+  background-color: var(--dark-violet);
+  background-image: url("/images/bg-pattern-how-we-work-mobile.svg");
+  background-position: right top;
+  background-repeat: no-repeat;
+  margin-top: 9rem;
+  padding: 4rem 1.5rem;
+}
+.call-to-action h1 {
+  color: var(--very-light-gray);
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 3rem;
 }
