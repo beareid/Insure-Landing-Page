@@ -118,12 +118,15 @@ button:hover {
   position: relative;
   text-align: center;
 }
-.features-section .line {
-  border-top: 1px solid var(--dark-grayish-violet);
+.line {
+  border-top: 1px solid rgb(148, 45, 148);
   height: 1px;
   width: 150px;
   margin: auto;
   padding-bottom: 3rem;
+}
+.features-header {
+  margin-bottom: 2.5rem;
 }
 .right-img {
   position: absolute;
@@ -133,4 +136,14 @@ button:hover {
 .features img {
   height: 5rem;
   width: 5rem;
+  margin: 3.5rem 0 2rem;
+}
+.features h2 {
+  font-size: 28px;
+  margin-bottom: 1rem;
+}
+.features p {
+  color: var(--dark-grayish-violet);
+  font-size: 15px;
+  line-height: 1.5;
 }
